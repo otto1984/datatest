@@ -1,0 +1,9 @@
+# Benötigte Python-Module für sp500_tech_scan.py
+# Versionen = in der vendor-Umgebung getesteter Stand (10.11.2026)
+# Installation in die vendor-Umgebung:
+#   pip install --target /media/veracrypt10/Daten/ClaudeCode/Chats/vendor -r req.txt
+numpy==2.5.1
+pandas==3.0.5
+requests==2.34.2
+yfinance==1.5.2
+beautifulsoup4==4.15.0
