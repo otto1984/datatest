@@ -4,7 +4,8 @@ on:
   schedule:
     # GitHub rechnet Cron in UTC: 04:00 UTC = 05:00 MEZ (Winterzeit).
     # In der Sommerzeit (MESZ) läuft der Job damit um 06:00 Ortszeit.
-    - cron: "0 4 * * *"
+    # cron in github läuft wohl zu Los Angeles Zeit, 19:05 Uhr entspricht 04:05 Uhr in DE
+    - cron: "5 19 * * *"
   workflow_dispatch: # manueller Start über "Run workflow"
 
 permissions:
